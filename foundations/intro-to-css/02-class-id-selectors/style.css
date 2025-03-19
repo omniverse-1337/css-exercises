@@ -1,0 +1,16 @@
+/* a light red/pink background, and a list of fonts containing `Verdana` and `DejaVu Sans` with `sans-serif` as a fallback */
+.odd{
+    background-color: rgb(255, 0, 128);
+    font-family: 'Verdana','Dejavu Sans','sans-serif';
+}
+.fs24{
+    font-size: 24px;
+}
+#d2{
+    color: hsl(187, 79%, 55%);
+    font-size: 36px;
+}
+#d4{
+    font-weight: bold;
+    background-color: #90ee90;
+}
