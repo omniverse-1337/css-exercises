@@ -4,7 +4,7 @@ html, body {
   height: 100%;
 }
 
-body {
+body{
   font-family: Roboto, sans-serif;
   margin: 0;
   background: #aaa;
@@ -15,11 +15,30 @@ body {
   justify-content: center;
 }
 
+.headertext{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 12px;
+  padding: 12px;
 }
 
 .icon {
@@ -33,6 +52,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -48,6 +69,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  justify-self: flex-end;
 }
 
 button {
